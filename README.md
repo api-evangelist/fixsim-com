@@ -1,4 +1,4 @@
-# fixsim-com
+# FIXSIM
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-fixsim-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://fixsim.com/
+FIXSIM provides a FIX Protocol testing platform offering sandbox environments, certification tools, and live FIX message simulation. It enables OMS/EMS vendors and broker‑dealers to validate session logic, replay messages, and automate regression testing without installations or sales calls. The service includes free trials, pricing details, tutorials, and extensive resources for FIX protocol developers.
+
+**Areas:** FIX · FIX Protocol · Testing · Sandbox · Financial Services
+
+## FIXSIM on APIs.io
+
+Everything profiled for FIXSIM is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fixsim-com/](https://apis.io/providers/fixsim-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [FIXSIM Executions In API](https://apis.io/apis/fixsim-com/fixsim-com-executionsin-api/) — The ExecutionsIn API from FIXSIM — 4 operation(s) for executionsin.
+- [FIXSIM Executions Out API](https://apis.io/apis/fixsim-com/fixsim-com-executionsout-api/) — The ExecutionsOut API from FIXSIM — 5 operation(s) for executionsout.
+- [FIXSIM Instances API](https://apis.io/apis/fixsim-com/fixsim-com-instances-api/) — The Instances API from FIXSIM — 1 operation(s) for instances.
+- [FIXSIM Orders In API](https://apis.io/apis/fixsim-com/fixsim-com-ordersin-api/) — The OrdersIn API from FIXSIM — 5 operation(s) for ordersin.
+- [FIXSIM Orders Out API](https://apis.io/apis/fixsim-com/fixsim-com-ordersout-api/) — The OrdersOut API from FIXSIM — 6 operation(s) for ordersout.
+- [FIXSIM Raw Messages API](https://apis.io/apis/fixsim-com/fixsim-com-rawmessages-api/) — The RawMessages API from FIXSIM — 1 operation(s) for rawmessages.
+- [FIXSIM Securities API](https://apis.io/apis/fixsim-com/fixsim-com-securities-api/) — The Securities API from FIXSIM — 1 operation(s) for securities.
+- [FIXSIM Sessions API](https://apis.io/apis/fixsim-com/fixsim-com-sessions-api/) — The Sessions API from FIXSIM — 3 operation(s) for sessions.
+- [FIXSIM Session Settings API](https://apis.io/apis/fixsim-com/fixsim-com-sessionsettings-api/) — The SessionSettings API from FIXSIM — 1 operation(s) for sessionsettings.
+- [FIXSIM SSO API](https://apis.io/apis/fixsim-com/fixsim-com-sso-api/) — The Sso API from FIXSIM — 4 operation(s) for sso.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Fixsim Com Agentic Access](https://apis.io/agentic-access/fixsim-com/fixsim-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ExecutionsIn](https://apis.io/schemas/fixsim-com/fixsim-com-executions-in/)
+- [ExecutionsOut](https://apis.io/schemas/fixsim-com/fixsim-com-executions-out/)
+- [OrderSingleIn](https://apis.io/schemas/fixsim-com/fixsim-com-order-single-in/)
+- [OrderSingleOut](https://apis.io/schemas/fixsim-com/fixsim-com-order-single-out/)
+- [SessionInfo](https://apis.io/schemas/fixsim-com/fixsim-com-session-info/)
+- [SessionSettings](https://apis.io/schemas/fixsim-com/fixsim-com-session-settings/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fixsim Com Context](https://apis.io/jsonld/fixsim-com/fixsim-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FIXSIM API Rules](https://apis.io/rules/fixsim-com/fixsim-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fixsim Com Authentication](https://apis.io/security/fixsim-com/fixsim-com-authentication/)
+- [Fixsim Com Domain Security](https://apis.io/security/fixsim-com/fixsim-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Fixsim Com Plans Pricing](https://apis.io/plans/fixsim-com/fixsim-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fixsim.com/)
+- [Getting started](https://www.fixsim.com/fix-onboarding-delays)
+- [API reference](https://portal.fixsim.com/swagger/index.html)
+- [Pricing](https://www.fixsim.com/pricing)
+- [Changelog](https://www.fixsim.com/whats-new)
+- [Terms of service](https://www.fixsim.com/tos)
+- [Privacy policy](https://www.fixsim.com/privacypolicy)
+
+## API Evangelist rating
+
+**Kin Score 54.0** — developing · rubric 0.27.0 · scored 2026-11-08
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 51.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 60.0 |
+
+**Agent readiness 26.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fixsim-com/](https://apis.io/providers/fixsim-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FIXSIM: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fixsim-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
